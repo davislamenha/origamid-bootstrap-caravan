@@ -11,6 +11,36 @@
 </head>
 
 <body>
+  </ *============MODAL==================* />
+  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen-sm-down">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModal">Acesse Sua Conta</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="emailLogin" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailLogin" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Não compartilhe seus dados</div>
+            </div>
+            <div class="mb-3">
+              <label for="senhaLogin" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senhaLogin">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Entrar</button>
+            <div id="recuperarSenha" class="form-text">Esqueceu sua senha? <a class="text-decoration-none" href="">Clique aqui</a>.</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </ *============FIM DO MODAL==================* />
+
   <nav class="navbar bg-body-tertiary navbar-expand-md fixed-top b-shadow">
     <div class="container">
       <a href="" class="navbar-brand py-2">
@@ -38,7 +68,7 @@
             <a class="nav-link" href="./contato.html">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" data-bs-toggle="modal" data-bs-target="#login" href="#">Login</a>
           </li>
           <li class="nav-item">
             <a class="btn btn-outline-primary ms-md-2 mt-1 mt-md-0" href="#">Inscreva-se</a>
