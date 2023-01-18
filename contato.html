@@ -78,11 +78,30 @@
     </div>
   </nav>
 
-  <section class="bg-light py-5">
+  <section class="bg-white py-5">
     <div class="container">
       <span class="d-block text-center h6 text-uppercase">possui alguma dúvida</span>
       <h1 class="text-primary text-center display-4 mb-5">Fale Conosco</h1>
 
+      <div class="row">
+        <div class="col-6">
+          <form class="text-bg-light p-4 rounded b-shadow">
+            <div class="mb-3">
+              <label for="contatoNome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="contatoNome">
+            </div>
+            <div class="mb-3">
+              <label for="contatoEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="contatoEmail">
+            </div>
+            <div class="mb-3">
+              <label for="contatoMensagem">Mensagem</label>
+              <textarea class="form-control" id="contatoMensagem" style="height: 150px;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Menssagem</button>
+          </form>
+        </div>
+      </div>
     </div>
 
   </section>
