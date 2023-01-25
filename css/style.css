@@ -1,6 +1,7 @@
 /* ========== GERAL ============ */
 body {
   padding-top: 62px;
+  overflow-x: hidden;
 }
 
 .b-shadow {
