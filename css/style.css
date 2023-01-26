@@ -3,7 +3,7 @@ body {
   padding-top: 62px; 
 }
 section {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 nav {
   max-width: 100vw;
